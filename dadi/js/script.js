@@ -13,11 +13,10 @@ const result = document.getElementById('result');
 
 playBtn.addEventListener('click',
 function(){
-        //al click, genero 2 numeri a caso, per il player e per il pc
+        //al click, genero 2 numeri a caso, per il player e per il pc, tra 1 e 6 inclusi
         playerNumber = Math.floor(Math.random() * 6) + 1;
         PCNumber = Math.floor(Math.random() * 6) + 1;
-        console.log(playerNumber, PCNumber);
-        //controllo il risultato
+        //controllo il valore del lancio per decidere il vincitore, o la parità
         if (playerNumber > PCNumber){
             msg = 'Hai vinto, il PC ha perso!';
         } else if(PCNumber > playerNumber){

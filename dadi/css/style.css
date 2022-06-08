@@ -1,0 +1,21 @@
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Common */
+h1{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+div{
+    padding-bottom: 1rem;
+}
+button{
+    margin-bottom: 2rem;
+}
+.container{
+    text-align: center;
+}
